@@ -16,6 +16,8 @@ from bridge_class import bridge
 
 
 class game:
+    pygame.init()
+
     """ DEFINE TILES """
     tilesize = 60
     W = 0  # WATER
